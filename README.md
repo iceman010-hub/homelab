@@ -91,8 +91,8 @@ Exact models are intentionally left out. What matters is the role each piece pla
 
 Built in phases on purpose — the whole point is to learn each integration as I go, not deploy a black box.
 
-| # | Phase | Status |
-|---|-------|--------|
+| # | Phase |
+|---|-------|
 | 1 | Deploy Wazuh Manager VM on the Proxmox pool; install one agent on a Linux VM and verify logs reach the dashboard 
 | 2 | Stand up a Suricata + Zeek sensor VM, fed by a Proxmox port mirror to watch east-west VM traffic 
 | 3 | Feed Suricata + Zeek logs into Wazuh for a single correlated network + host view 
