@@ -93,11 +93,11 @@ Built in phases on purpose — the whole point is to learn each integration as I
 
 | # | Phase | Status |
 |---|-------|--------|
-| 1 | Deploy Wazuh Manager VM on the Proxmox pool; install one agent on a Linux VM and verify logs reach the dashboard | 🔲 Planned |
-| 2 | Stand up a Suricata + Zeek sensor VM, fed by a Proxmox port mirror to watch east-west VM traffic | 🔲 Planned |
-| 3 | Feed Suricata + Zeek logs into Wazuh for a single correlated network + host view | 🔲 Planned |
-| 4 | Export router edge logs into the SIEM for full perimeter-to-host coverage | 🔲 Planned |
-| 5 | Run a simulated attack from an isolated Lab VM and confirm the full kill chain shows up end to end | 🔲 Planned |
+| 1 | Deploy Wazuh Manager VM on the Proxmox pool; install one agent on a Linux VM and verify logs reach the dashboard 
+| 2 | Stand up a Suricata + Zeek sensor VM, fed by a Proxmox port mirror to watch east-west VM traffic 
+| 3 | Feed Suricata + Zeek logs into Wazuh for a single correlated network + host view 
+| 4 | Export router edge logs into the SIEM for full perimeter-to-host coverage 
+| 5 | Run a simulated attack from an isolated Lab VM and confirm the full kill chain shows up end to end 
 
 ---
 
