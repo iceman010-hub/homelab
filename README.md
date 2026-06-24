@@ -89,13 +89,13 @@ Exact models are intentionally left out. What matters is the role each piece pla
 
 Built in phases on purpose — the whole point is to learn each integration as I go, not deploy a black box.
 
-| # | Phase | Status |
-|---|-------|--------|
-| 1 | Deploy Security Onion on the Proxmox host (management + sniffing interfaces); confirm Suricata + Zeek + Elastic are pulling traffic | 🔲 Planned |
-| 2 | Configure a Proxmox port mirror so the sensor sees east-west traffic between VMs | 🔲 Planned |
-| 3 | Roll out Wazuh agents on the Linux/Windows VMs and confirm host logs reach the dashboard | 🔲 Planned |
-| 4 | Export router edge logs into the SIEM for full perimeter-to-host coverage | 🔲 Planned |
-| 5 | Run a simulated attack from an isolated Lab VM and confirm the full kill chain shows up end to end | 🔲 Planned |
+| # | Phase |
+|---|-------|
+| 1 | Deploy Security Onion on the Proxmox host (management + sniffing interfaces); confirm Suricata + Zeek + Elastic are pulling traffic 
+| 2 | Configure a Proxmox port mirror so the sensor sees east-west traffic between VMs 
+| 3 | Roll out Wazuh agents on the Linux/Windows VMs and confirm host logs reach the dashboard 
+| 4 | Export router edge logs into the SIEM for full perimeter-to-host coverage 
+| 5 | Run a simulated attack from an isolated Lab VM and confirm the full kill chain shows up end to end 
 
 ---
 
