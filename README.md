@@ -119,7 +119,7 @@ Built in phases on purpose — the whole point is to learn each integration as I
 | 2 | Configure a port mirror so the sensor sees east-west traffic between VMs | ✅ |
 | 3 | Stand up the Wazuh server on a dedicated node and roll out agents to the VMs and PCs | ✅ |
 | 4 | Replace key-only VPN access with self-hosted NetBird and MFA | ✅ |
-| 5 | Run a simulated attack from an isolated Lab VM and confirm it shows up end to end | ⬜ Next |
+| 5 | Run a simulated attack from an isolated Lab VM and confirm it shows up end to end ([test plan](detection-tests/01-lab-attack-simulation.md)) | ⬜ Next |
 
 ---
 
